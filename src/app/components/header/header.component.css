@@ -1,0 +1,36 @@
+.cabecera{
+    width: 100%;
+    height: 40vh;
+    background-image: linear-gradient(to right bottom, rgba(36,177,219,0.8),rgba(6,36,117,0.8)), url(../../../assets/cocteles.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.buscador {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 40%;
+}
+
+.txtBusqueda {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 75%;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.buscar{
+    margin: 0 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    padding: 10px 17px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 2px 10px #3e3e3e;
+}
